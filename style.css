@@ -2,15 +2,25 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 720px;
-    
-
+    max-width: 960px;
 }
 
-.content {
-    border: 2px solid black;
-    width: 20px;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
+.box {
+    border: 1px solid #f9faf8;
+    width: 55px;
+    height: 55px;
+}
+.box:hover {
+    background-color: orange;
+}
+
+#gridSize {
+    margin: 20px;
+}
+
+body{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: "Audiowide", sans-serif;
+
 }
