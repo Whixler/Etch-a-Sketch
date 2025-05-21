@@ -17,7 +17,7 @@ body{
 }
 
 .cell{
-    border: 1px solid #f9faf8;
+    border: 1px solid lightgrey;
 }
 
 /* #gridSize {
