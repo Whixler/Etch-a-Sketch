@@ -1,14 +1,19 @@
-#container{
+body{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-family: "Audiowide", sans-serif
 }
 
-.box {
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 640px;
+}
+.box{
     border: 1px solid #f9faf8;
-    width: 55px;
-    height: 55px;
 }
 .box:hover {
     background-color: orange;
@@ -18,9 +23,3 @@
     margin: 20px;
 }
 
-body{
-    background-color: #1F2937;
-    color: #f9faf8;
-    font-family: "Audiowide", sans-serif;
-
-}
