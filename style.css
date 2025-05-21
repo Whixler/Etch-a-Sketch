@@ -4,22 +4,23 @@ body{
     align-items: center;
     background-color: #1F2937;
     color: #f9faf8;
-    font-family: "Audiowide", sans-serif
+    font-family: "Audiowide", sans-serif;
+    gap: 20px
+    
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
     max-width: 640px;
-}
-.box{
-    border: 1px solid #f9faf8;
-}
-.box:hover {
-    background-color: orange;
+    border: 2px solid #f9faf8;
 }
 
-#gridSize {
-    margin: 20px;
+.cell{
+    border: 1px solid #f9faf8;
 }
+
+/* #gridSize {
+    margin: 20px;
+} */
 
